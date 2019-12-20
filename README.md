@@ -8,7 +8,7 @@
 记录每天学习`java`的点点滴滴，有针对性的目标和动力去磨练自己。
 
 学习主要是看视频课程:
-* [极客时间-零基础学「Java」](https://time.geekbang.org/course/intro/181)
+* [极客时间-零基础学Java「臧萌」](https://time.geekbang.org/course/intro/181)
 * [饥人谷-2020版Java体系课「张博」](https://xiedaimala.com/user_groups/8f1a7d7b-33fe-4558-91be-e26231556096)
 * [慕课网-从Java后端到Web全栈「7七月」](http://class.imooc.com/sale/javafullstack)
 
