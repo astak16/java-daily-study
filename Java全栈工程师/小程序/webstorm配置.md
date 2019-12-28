@@ -14,3 +14,8 @@
 ![](./images/webstorm配置2.png)
 ![](./images/webstorm配置3.png)
 
+## 代码片段简写
+
+`editor` -> `live Templates` 
+
+![](./images/webstorm配置4.png)
