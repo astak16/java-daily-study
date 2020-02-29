@@ -58,3 +58,14 @@
 关于`IOC`和`DI`公认的好文章：[Inversion of Control Containers and the Dependency Injection pattern](martinfowler.com/articles/injection.html)
 
 `DI`是`IOC`的一种具体的实现，或者说是`IOC`具体的用途，`IOC`是一种抽象，`DI`是更具体的一种东西。
+
+
+## 构建工具
+- `maven`：用`xml`的形式，阻止包与包之间的依赖
+- `gradle`：不需要写`xml`，专门的`groovy`语言
+
+`maven`有一个中央仓库，`gradle`的中央仓库用的就是`maven`的中央仓库
+
+`groovy`是`DSL`语言`，是特定领域的编程语言还有`SQL`语言
+
+`java`和`python`这种是`DPL`语言，是通用性的编程语言
