@@ -265,6 +265,16 @@ public static ISkill getHero(String name) throws Exception {
 
 `JDK9`以上已经废弃了`newInstance()`这个方法，用的是`clazz.getDeclaredConstructor().newInstance()`来代替。
 
+## 问题
+
+上面的代码已经实现了`OCP`，那还要`IOC`和`DI`干嘛。
+
+如果只是为了实现开闭原则，这就已经实现了，所以，`IOC`和`DI`的好处肯定不是仅仅实现了`OCP`。
+
+这里最主要的问题是，使用起来不是很方便，这种方式还是我们常规的思维、正向的思维，每次需要获取英雄时，都要去引入`HeroFactory`，再通过这个工厂的工厂方法获取到具体的英雄。
+
+有没有什么方法可以让`HeroFactory`这个工厂不出现，然后让我们直接拿到这个`iSkill`呢？这个就是`IOC`和`DI`做的事情。
+
 ## 总结
 
 - **单纯的`interface`在某种程度上可以统一方法的调用，但不能统一对象的实例化。**
